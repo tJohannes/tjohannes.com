@@ -1,0 +1,142 @@
+@charset "UTF-8";
+	
+
+ .navbar-header.navbar-default.navbar-fixed-top {
+	background-color: black;
+	opacity: .55;
+	}
+	
+/*
+	==================================
+	= TOP LINKS				
+	==================================
+*/	
+
+	#topFixedNavbar1 li a{
+	position:relative;
+	float:bottom;
+	margin:15px !important;
+	color: #aeaeae;
+	}
+	
+	
+	#topFixedNavbar1 li a:hover {
+	color:#fff;
+	}
+	
+
+/*
+	==================================
+	= SEARCH BUTTON			
+	==================================
+*/	
+
+.form-group {
+	margin:15px !important;
+  	 }
+
+
+.btn-custom {  
+    background-color: #000;
+    border-color: #000;
+    color: #aeaeae;
+ }
+.btn-custom:hover {
+   background-color: #000;
+   border-color: #000;
+   color: #fff;
+}
+
+
+
+/*
+	==================================
+	= BRAND LOGO    WIDE SCREEN			
+	==================================
+*/	
+
+#logo {
+	background-color: none;
+	background-color: #000;
+    border-color: black;
+	}
+	
+	
+.navbar-brand img{
+	margin-left: 100px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	opacity: 0.7;
+    transition: 0.3s ease;
+    cursor: pointer;
+	margin:15px !important;
+
+	}
+	
+	.navbar-brand:hover img {
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}	
+		
+		
+/*
+	==================================
+	= MBRAND LOGO    MOBILE SCREEN			
+	==================================
+*/
+		
+
+#logo .Mnavbar-brand img{
+	margin-left: 100px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	opacity: 0.7;
+    transition: 0.3s ease;
+    cursor: pointer;
+	}
+	
+#logo .Mnavbar-brand img{
+	background-color:black !important}
+	
+#logo .Mnavbar-brand:hover {
+	 transform: scale(1.1, 1.1);
+    opacity: 1;}
+	
+	
+	
+/*  
+    ==================================
+	= TOGGLE BUTTON    MOBILE SCREEN			
+	==================================
+*/
+
+
+#button {
+	float: left;
+	position: relative;
+	margin-left: 0px;
+ 	background-color: #000;
+    border-color: black;
+	
+    }
+
+.icon-bar {
+   background-color:aeaeae !important;
+    }
+
+
+.icon-bar:hover {
+   	background-color: #fff !important;
+    }
+
+
+
+
+/* response delays */
+@media (max-width: 766px) {
+.collapse {background-color: black;}
+.collapse ul li a {font-size:20px !important;}
+.collapse ul li a {color: #aeaeae !important;}
+.collapse ul li a:hover {color: #fff !important;}
+}	
+

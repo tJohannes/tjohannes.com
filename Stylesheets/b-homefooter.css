@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/*BOTTOM FOOTER */
+
+ .container-fluid .navbar.navbar-default.navbar-fixed-bottom  {
+	width: 100%;
+	border-top-color: black;
+	background-color: black;
+	opacity: .55;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	margin-left: 0px;
+	}
+		
+		
+/*
+	==================================
+	= SIDE LINKS				
+	==================================
+*/	
+
+.navbar li {
+	list-style-type: none;
+	font-family: arial, sans-serif;
+	font-size: 1em !important;
+	text-decoration: none;
+}
+ul.navbar li a {
+	text-decoration: none;
+	color: #aeaeae;
+	}
+
+ul.navbar li a:hover {
+	color:#fff;
+	}
+	
+#verticalLine0, #verticalLine1, #verticalLine2, #verticalLine3, #verticalLine4{
+	width: 210px;
+	margin: 1px;
+	
+	}
+	#verticalLine0 {
+		margin-top:40px;
+	}
+	
+	.container-fluid .navbar{
+		margin-left:20px}
+	
+	
+/*
+	==================================
+	= SOCIAL				
+	==================================
+*/	
+	.social {
+  	margin-bottom:60px;  
+	}
+	ul.social{
+	width:100%;
+		}
+	.social a{
+	border: none !important;
+	display: block;
+	margin-right: 1px;
+	width: 19px;
+	height: 18px;
+	background: url(../Images/footer-social-back.png) center center no-repeat;
+	position: relative;
+	float: left;
+	}
+
+.social a:hover {
+ 	background-image: url(../Images/footer-social-back-hover-.png);
+	}
+.social a{
+	position:relative;
+	left:14px}
+	
+.container-fluid .social{
+	margin-left:9px;
+	}
+/*
+	==================================
+	= VERY BOTTOM					
+	==================================
+*/	
+
+.copyright li p{
+	color: #aeaeae;
+	float: left;
+	margin-right: 60px;
+	left: 35px;
+	position: relative;
+	font-size: .9em !important;
+	}
+
+ #bottomFixedNavbar1 li {
+	font-size: .9em !important;
+	list-style-type: none;
+	display: inline-block;
+	margin-bottom: 0px;
+	margin: 1px;
+	}
+		
+#bottomFixedNavbar1 a {
+	color: #aeaeae;
+	}
+
+#bottomFixedNavbar1 li a:hover {
+	color:#fff;
+	}
+	
+#bottomFixedNavbar1 li:before {
+	content: " | ";
+	color:#eee;
+	}
+
+#bottomFixedNavbar1 li:first-child:before {
+	content: none;
+	}

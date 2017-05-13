@@ -1,0 +1,13 @@
+@charset "UTF-8";
+          
+		  
+body h2{
+     font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;
+     color: #333333;
+     background-color: #f7f7f7;
+     border: 1px solid #cccccc;
+     padding: 10px;
+     font-size: 13px;
+     font-weight: bold;
+      }
+         

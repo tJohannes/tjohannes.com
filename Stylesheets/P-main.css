@@ -1,0 +1,292 @@
+@charset "UTF-8";
+body{
+	background-image: url(../Images/slide_bridge.jpg);
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-left: 0px;
+	margin-right: 0px;
+	}
+
+
+ .navbar-header.navbar-default.navbar-fixed-top {
+	background-color: black;
+	opacity: .55;
+	position: relative;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	padding-right: 0;
+	padding-left: 0;
+	right: 0;
+	left: 0;
+	}
+	
+	
+/*
+	==================================
+	= TOP LINKS				
+	==================================
+*/	
+
+	#topFixedNavbar1 li a{
+	position:relative;
+	float:bottom;
+	margin:15px !important;
+	color: #aeaeae;
+	}
+	
+	
+	#topFixedNavbar1 li a:hover {
+	color:#fff;
+	}
+	
+
+/*
+	==================================
+	= SEARCH BUTTON			
+	==================================
+*/	
+
+.form-group {
+	margin:15px !important;
+  	 }
+
+
+.btn-custom {  
+    background-color: #000;
+    border-color: #000;
+    color: #aeaeae;
+ }
+.btn-custom:hover {
+   background-color: #000;
+   border-color: #000;
+   color: #fff;
+}
+
+
+
+/*
+	==================================
+	= BRAND LOGO    WIDE SCREEN			
+	==================================
+*/	
+
+#logo {
+	background-color: none;
+	background-color: #000;
+    border-color: black;
+	}
+	
+	
+.navbar-brand img{
+	margin-left: 100px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	opacity: 0.7;
+    transition: 0.3s ease;
+    cursor: pointer;
+	margin:15px !important;
+
+	}
+	
+	.navbar-brand:hover img {
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}	
+		
+		
+/*
+	==================================
+	= MBRAND LOGO    MOBILE SCREEN			
+	==================================
+*/
+		
+
+#logo .Mnavbar-brand img{
+	margin-left: 100px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	opacity: 0.7;
+    transition: 0.3s ease;
+    cursor: pointer;
+	}
+	
+#logo .Mnavbar-brand img{
+	background-color:black !important}
+	
+#logo .Mnavbar-brand:hover {
+	 transform: scale(1.1, 1.1);
+    opacity: 1;}
+	
+	
+	
+/*  
+    ==================================
+	= TOGGLE BUTTON    MOBILE SCREEN			
+	==================================
+*/
+
+
+#button {
+	float: left;
+	position: relative;
+	margin-left: 0px;
+ 	background-color: #000;
+    border-color: black;
+	
+    }
+
+.icon-bar {
+   background-color:aeaeae !important;
+    }
+
+
+.icon-bar:hover {
+   	background-color: #fff !important;
+    }
+
+
+
+
+/* response delays */
+@media (max-width: 766px) {
+.collapse {background-color: black;}
+.collapse ul li a {font-size:20px !important;}
+.collapse ul li a {color: #aeaeae !important;}
+.collapse ul li a:hover {color: #fff !important;}
+}	
+
+
+
+/*//////////////////////////////////////// BOTTOM FOOTER ////////////////////////////////////////// */
+
+	
+.navbar.navbar-default.navbar-fixed-bottom  {
+	position: relative;
+	border-top-color: black;
+	background-color: black;
+	opacity: .55;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	width: 100%;
+	left: 0px;
+	right: 0px;
+	}
+
+.container-fluid{
+	width: 100%;
+	left: 0px;
+	right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	position: relative;
+	}
+	
+/*
+	==================================
+	= SIDE LINKS				
+	==================================
+*/	
+
+.navbar li {
+	list-style-type: none;
+	font-family: arial, sans-serif;
+	font-size: 1em !important;
+	text-decoration: none;
+}
+ul.navbar li a {
+	text-decoration: none;
+	color: #aeaeae;
+	}
+
+ul.navbar li a:hover {
+	color:#fff;
+	}
+	
+#verticalLine0, #verticalLine1, #verticalLine2, #verticalLine3, #verticalLine4{
+	width: 210px;
+	margin: 1px;
+	
+	}
+#verticalLine0 {
+		margin-top:40px;
+	}
+	
+.container-fluid .navbar{
+		margin-left:20px}
+	
+	
+/*
+	==================================
+	= SOCIAL				
+	==================================
+*/	
+	.social {
+  	margin-bottom:60px;  
+	}
+	ul.social{
+	width:100%;
+		}
+	.social a{
+	border: none !important;
+	display: block;
+	margin-right: 1px;
+	width: 19px;
+	height: 18px;
+	background: url(../Images/footer-social-back.png) center center no-repeat;
+	position: relative;
+	float: left;
+	}
+
+.social a:hover {
+ 	background-image: url(../Images/footer-social-back-hover-.png);
+	}
+.social a{
+	position:relative;
+	left:14px}
+	
+.container-fluid .social{
+	margin-left:9px;
+	}
+/*
+	==================================
+	= VERY BOTTOM					
+	==================================
+*/	
+
+.copyright li p{
+	color: #aeaeae;
+	float: left;
+	margin-right: 60px;
+	left: 35px;
+	position: relative;
+	font-size: .9em !important;
+	}
+
+ #bottomFixedNavbar1 li {
+	font-size: .9em !important;
+	list-style-type: none;
+	display: inline-block;
+	margin-bottom: 0px;
+	margin: 1px;
+	}
+		
+#bottomFixedNavbar1 a {
+	color: #aeaeae;
+	}
+
+#bottomFixedNavbar1 li a:hover {
+	color:#fff;
+	}
+	
+#bottomFixedNavbar1 li:before {
+	content: " | ";
+	color:#eee;
+	}
+
+#bottomFixedNavbar1 li:first-child:before {
+	content: none;
+	}
